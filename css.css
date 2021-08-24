@@ -1,0 +1,27 @@
+#foto{
+    background-color: #0EB1D2;
+}
+
+img.foto {
+    width: 340px;
+    border-radius: 50%;
+    padding: 65px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width:375px) and (max-width:1023px) {
+    #foto {
+        background-color: #0EB1D2;
+    }
+    
+    img.foto {
+        width: 150px;
+        border-radius: 50%;
+        padding: 15px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
